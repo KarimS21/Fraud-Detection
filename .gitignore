@@ -1,2 +1,6 @@
 data/
 .vscode/
+# Data local
+notebooks/fraudTrain.csv
+notebooks/fraudTest.csv
+
