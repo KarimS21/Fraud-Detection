@@ -1,0 +1,66 @@
+{
+  "generated_at_utc": "2026-07-11T06:02:58.743088+00:00",
+  "artifact_root": "artifacts",
+  "files": [
+    {
+      "path": "baselines/.gitkeep",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "baselines/historical_risk_table.csv",
+      "size_bytes": 486,
+      "sha256": "796fe67a9a2f7accf71df3575f7049ef4f2531fc49b445296d9959a03325fe9a"
+    },
+    {
+      "path": "metadata/input_schema.json",
+      "size_bytes": 722,
+      "sha256": "07df8bf7c44ace06446d3ff03cf7adc544744a3a016fa8fff48da3726aa306d7"
+    },
+    {
+      "path": "metadata/input_schema.template.json",
+      "size_bytes": 730,
+      "sha256": "f4396c6e19ce9755b76a78f30063585f72742013f241bf51f57fb5540d278d19"
+    },
+    {
+      "path": "metadata/model_metadata.json",
+      "size_bytes": 1911,
+      "sha256": "de1f18e4d8b5b1231e00bb5090121e2e4f2fd42bb6d8aa29be3453026268e412"
+    },
+    {
+      "path": "metadata/model_metadata.template.json",
+      "size_bytes": 599,
+      "sha256": "3e9f35b09c8099b7485d84af0afde49bb018ef37aba28d8fb5130e452a9930e1"
+    },
+    {
+      "path": "models/.gitkeep",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "models/fraud_xgboost_model.json",
+      "size_bytes": 1093113,
+      "sha256": "cea1100f98dda3fb2f1d6717a6aa93a3edc14780d0cd66ad8c55e77a0c5b8781"
+    },
+    {
+      "path": "models/preprocessor.joblib",
+      "size_bytes": 256134,
+      "sha256": "354e7b2fd9a85d6dc5599398423bf77f1b2a4d842eff19c8f54487d2bcda3381"
+    },
+    {
+      "path": "models/scaler_cluster.joblib",
+      "size_bytes": 1151,
+      "sha256": "2997c70f37edee86c53af1f40fe32119bfeefd91da63359dfd34eb5c0091c1a3"
+    },
+    {
+      "path": "models/svd_model.joblib",
+      "size_bytes": 38343,
+      "sha256": "b222e5e55ef4dacc8dde9eda72a555bb6a85d908e7a7290ab3af0ceff6ef5437"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 879,
+      "sha256": "a7004296ec1f98d7ece0cff880764042845602ab2a30e207746622703df68a51"
+    }
+  ]
+}

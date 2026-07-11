@@ -1,0 +1,8 @@
+comparacion,metrica,valor
+PageRank del grafo vs Popularidad,Spearman rank correlation,0.9327907493105474
+PageRank del grafo vs Ranking por monto,Spearman rank correlation,0.6357140080799524
+PageRank del grafo vs Ranking del modelo,Spearman rank correlation,0.28085211529598597
+PageRank riesgo vs Ranking del modelo,Spearman rank correlation,0.35366247640739157
+Top 10 PageRank vs Top 10 Popularidad,Overlap@10,0.5
+Top 10 PageRank vs Top 10 Modelo,Overlap@10,0.0
+Top 10 PageRank riesgo vs Top 10 Modelo,Overlap@10,0.0

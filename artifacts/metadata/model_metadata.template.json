@@ -1,0 +1,19 @@
+{
+  "model_name": "XGBoost optimizado",
+  "model_version": "1.0.0",
+  "artifact_status": "pending_notebook_export",
+  "random_state": 42,
+  "model_components": 23,
+  "classification_threshold": 0.5,
+  "training_rows": 75000,
+  "test_rows": 21000,
+  "experimental_train_fraud_rate": 0.1,
+  "experimental_test_fraud_rate": 0.1,
+  "roc_auc_baseline": 0.726,
+  "pr_auc_baseline": 0.208,
+  "roc_auc_model": 0.992,
+  "pr_auc_model": 0.958,
+  "recall_top5_baseline": 0.13,
+  "recall_top5_model": 0.5,
+  "note": "Plantilla informativa. El archivo model_metadata.json real se crea al exportar el notebook."
+}

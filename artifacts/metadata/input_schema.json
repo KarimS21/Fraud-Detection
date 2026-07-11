@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "required_model_features": [
+    "log_monto",
+    "poblacion_ciudad",
+    "edad_cliente",
+    "distancia_km",
+    "es_fin_de_semana",
+    "hora_sin",
+    "hora_cos",
+    "mes_sin",
+    "mes_cos",
+    "genero",
+    "categoria_comercio",
+    "dia_semana_transaccion",
+    "periodo_dia",
+    "estado",
+    "ciudad",
+    "comercio",
+    "ocupacion",
+    "codigo_postal"
+  ],
+  "target_column": "es_fraude",
+  "raw_datetime_columns": [
+    "fecha_hora_transaccion",
+    "fecha_nacimiento"
+  ],
+  "notes": [
+    "engineer_model_features crea variables temporales y log_monto.",
+    "Las categorías desconocidas se gestionan mediante los encoders ajustados."
+  ]
+}

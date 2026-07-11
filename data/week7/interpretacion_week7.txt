@@ -1,0 +1,32 @@
+
+Interpretación de Semana 7:
+
+Se aplicaron dos métodos de clustering no supervisado sobre la matriz reducida mediante SVD.
+
+1. K-means:
+El mejor resultado de K-means se obtuvo con k=10, alcanzando un silhouette score de 0.1556.
+La inercia del modelo fue 1137328.3099. Este resultado indica qué tan compactos se encuentran
+los grupos generados. Sin embargo, K-means obliga a que todas las transacciones pertenezcan a algún cluster,
+por lo que puede agrupar puntos que realmente no tienen una separación natural clara.
+
+2. DBSCAN:
+DBSCAN fue evaluado mediante un barrido de eps y min_samples. Este método permite identificar ruido,
+lo cual es útil en un problema de fraude porque algunas transacciones pueden comportarse como anomalías.
+No obstante, DBSCAN es sensible a sus parámetros y a la densidad de los datos. Cuando eps es muy bajo,
+muchos puntos son clasificados como ruido. Cuando eps es muy alto, varios grupos pueden fusionarse.
+
+3. Perfil de clusters:
+El análisis de perfiles permite observar diferencias entre grupos en variables como monto, edad,
+distancia entre cliente y comercio, hora de transacción y tasa de fraude. Si algún cluster muestra una
+tasa de fraude superior al promedio, puede interpretarse como un segmento de mayor riesgo.
+
+4. Análisis de fallos:
+El clustering no separa perfectamente las transacciones fraudulentas porque el fraude es una clase muy
+minoritaria y muchas operaciones fraudulentas pueden parecerse a operaciones legítimas. Además, las variables
+disponibles no necesariamente generan fronteras claras entre fraude y no fraude. Por ello, el clustering debe
+interpretarse como una técnica exploratoria de segmentación y no como un clasificador final de fraude.
+
+5. Límite de interpretación:
+Los clusters encontrados no representan necesariamente categorías reales del negocio. Son agrupaciones
+matemáticas basadas en similitud entre transacciones. Para una detección formal de fraude, sería necesario
+entrenar modelos supervisados y evaluar métricas como recall, precision, F1-score y PR-AUC.

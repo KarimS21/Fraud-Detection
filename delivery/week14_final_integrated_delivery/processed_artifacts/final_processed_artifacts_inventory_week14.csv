@@ -1,0 +1,22 @@
+semana,artefacto,tipo,ruta_relativa,existe,tamano_kb,estado
+Semana 5,Matriz de features,features,data\week5\X_features_week5.npz,True,3813.06,OK
+Semana 5,Target de entrenamiento,target,data\week5\y_week5.csv,True,219.74,OK
+Semana 5,Nombres de variables,metadata,data\week5\feature_names_week5.csv,True,2.2,OK
+Semana 5,Comparación dimensional,reporte,data\week5\dimensionality_comparison_week5.csv,True,0.66,OK
+Semana 7,Tabla de validación de clustering,reporte,data\week7\validation_table_week7.csv,True,3.85,OK
+Semana 7,Perfil de clusters KMeans,reporte,data\week7\cluster_profile_kmeans_week7.csv,True,0.74,OK
+Semana 7,Perfil de clusters DBSCAN,reporte,data\week7\cluster_profile_dbscan_week7.csv,True,8.08,OK
+Semana 7,Interpretación de clustering,interpretacion,data\week7\interpretacion_week7.txt,True,2.04,OK
+Semana 10,Evaluación offline,reporte,data\week10\offline_evaluation_report_week10.csv,True,0.31,OK
+Semana 10,Métricas Top-K,reporte,data\week10\topk_ranking_report_week10.csv,True,0.54,OK
+Semana 10,Candidate pool rankeado,demo,data\week10\candidate_pool_ranked_week10.csv,True,3790.88,OK
+Semana 10,Gráfico de rendimiento,figura,data\week10\analisis_rendimiento_completo.png,True,382.62,OK
+Semana 10,Distribución de scores y Top-K,figura,data\week10\distribucion_scores_y_metricas_topk.png,True,213.84,OK
+Semana 10,Interpretación del sistema fuerte,interpretacion,data\week10\interpretacion_week10.txt,True,2.55,OK
+Semana 12,Aristas cliente-comercio,grafo,data\week12\graph_edges_cliente_comercio_week12.csv,True,1868.13,OK
+Semana 12,Componentes conectados,reporte,data\week12\graph_connected_components_week12.csv,True,0.09,OK
+Semana 12,Reporte de grados,reporte,data\week12\graph_degree_report_week12.csv,True,106.08,OK
+Semana 12,Reporte de centralidad,reporte,data\week12\graph_centrality_report_week12.csv,True,176.23,OK
+Semana 12,Ranking grafo vs modelo,reporte,data\week12\graph_vs_model_ranking_week12.csv,True,115.78,OK
+Semana 12,Comparación de rankings,reporte,data\week12\ranking_comparison_report_week12.csv,True,0.51,OK
+Semana 12,Grafo exportado GEXF,grafo,data\week12\grafo_cliente_comercio_week12.gexf,True,9974.01,OK

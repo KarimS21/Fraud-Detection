@@ -1,0 +1,9 @@
+metodo,componentes,varianza_o_energia_acumulada,error_reconstruccion_relativo,matriz_usada
+PCA - solo numéricas,2,0.2620942241651111,0.8590144212030937,X_numeric
+PCA - solo numéricas,5,0.6010715396725415,0.6316078374493598,X_numeric
+PCA - solo numéricas,9,1.0,8.903288710960242e-16,X_numeric
+SVD - matriz completa,2,0.20419577532040184,0.8990609145630697,X_features
+SVD - matriz completa,5,0.37996574188305604,0.7577311229475916,X_features
+SVD - matriz completa,9,0.6805137132182587,0.5438154285053562,X_features
+SVD - matriz completa,20,0.874034303594427,0.3412143272335002,X_features
+SVD - matriz completa,50,0.9715606726930452,0.1621274952299743,X_features

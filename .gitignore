@@ -1,6 +1,33 @@
-data/
-.vscode/
-# Data local
-notebooks/fraudTrain.csv
-notebooks/fraudTest.csv
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
+# Entornos y editores
+.venv/
+venv/
+.env
+.env.*
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/*_executed.ipynb
+
+# Datos originales y datasets intermedios pesados
+data/raw/*.csv
+data/interim/transactions_clean_v*.csv
+
+# Mantener la estructura de carpetas
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+
+# Archivos temporales
+*.tmp
+*.log
+.DS_Store
+Thumbs.db

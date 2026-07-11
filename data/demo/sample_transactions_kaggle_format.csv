@@ -1,0 +1,7 @@
+trans_date_trans_time,merchant,category,amt,gender,city,state,zip,lat,long,city_pop,job,dob,merch_lat,merch_long,trans_num
+2020-10-10 22:47:11,fraud_Lebsack and Sons,misc_net,846.93,F,Varnell,GA,30756,34.9013,-84.9737,4154,Engineer,1985-06-15,34.1000,-84.1000,demo-001
+2020-06-24 03:33:40,fraud_Huels-Hahn,gas_transport,7.82,M,Springville,NY,14141,42.5084,-78.6670,7983,Analyst,1978-03-08,42.9000,-78.1000,demo-002
+2020-12-08 03:01:53,fraud_Murray-Smitham,grocery_pos,315.25,F,Moorhead,MS,38761,33.4500,-90.5100,2011,Teacher,1990-01-20,33.9000,-89.9000,demo-003
+2020-09-05 14:18:21,fraud_Demo Grocery,grocery_pos,42.70,M,Lima,LI,15001,-12.0464,-77.0428,9674755,Developer,1994-09-10,-12.0500,-77.0300,demo-004
+2020-09-06 09:45:00,fraud_Demo Restaurant,food_dining,18.50,F,Lima,LI,15001,-12.0464,-77.0428,9674755,Doctor,1988-11-02,-12.0470,-77.0410,demo-005
+2020-11-20 20:10:12,fraud_Demo Shopping,shopping_net,920.00,M,Cusco,CU,08000,-13.5319,-71.9675,428450,Consultant,1972-02-12,-12.8000,-72.7000,demo-006

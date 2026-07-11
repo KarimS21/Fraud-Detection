@@ -1,0 +1,26 @@
+fraude_real,score_modelo_fuerte,rank_modelo_fuerte,score_baseline,rank_baseline,fecha_hora_transaccion,categoria_comercio,monto,log_monto,ciudad,estado,genero,edad_cliente,distancia_km,comercio,ocupacion
+1,0.99966323,1,0.21900430828147438,2749,2020-10-10 22:47:11,misc_net,846.93,6.742798085214886,Varnell,GA,M,76,19.971254279081226,fraud_Lebsack and Sons,Pensions consultant
+1,0.99951553,2,0.08247560486565968,8114,2020-06-24 03:33:40,gas_transport,7.82,2.1770218700187,Springville,NY,M,61,106.90102634457637,fraud_Huels-Hahn,"Scientist, research (maths)"
+1,0.99949646,3,0.21900430828147438,2927,2020-10-17 22:01:35,misc_net,793.61,6.677851428249711,Hartford,AL,M,74,39.72125064448683,fraud_Koelpin and Sons,Jewellery designer
+1,0.9994185,4,0.21900430828147438,2375,2020-10-17 22:57:27,misc_net,856.3,6.75378791568471,Hartford,AL,M,74,104.68174918973617,"fraud_Hayes, Marquardt and Dibbert",Jewellery designer
+1,0.99931216,5,0.21597816648058554,3877,2020-12-08 03:01:53,grocery_pos,315.25,5.75653304004173,Moorhead,MS,M,21,91.39699878664526,fraud_Murray-Smitham,Chartered public finance accountant
+1,0.9993075,6,0.08247560486565968,7901,2020-12-17 02:37:31,gas_transport,7.05,2.0856720914304723,Leetsdale,PA,M,34,95.2276860429354,"fraud_Jenkins, Hauck and Friesen","Administrator, education"
+1,0.9992933,7,0.21900430828147438,3013,2020-12-06 23:42:00,misc_net,905.63,6.809734428627697,Greenbush,VA,M,71,82.33097572890445,fraud_Mante Group,Psychiatrist
+1,0.99922645,8,0.21900430828147438,2539,2020-10-17 22:15:31,misc_net,684.59,6.5302797814129026,Hartford,AL,M,74,94.80366603720351,"fraud_Kerluke, Considine and Macejkovic",Jewellery designer
+1,0.99919444,9,0.08247560486565968,8357,2020-08-05 02:21:46,gas_transport,7.99,2.196112848483529,Grand Bay,AL,M,72,114.89392190769289,fraud_Mraz-Herzog,Armed forces logistics/support/administrative officer
+1,0.99917394,10,0.2554493878769782,402,2020-09-05 22:58:53,shopping_net,1044.98,6.952709523983179,Brinson,GA,M,84,30.748512977520384,fraud_Medhurst PLC,"Engineer, broadcasting (operations)"
+1,0.99911016,11,0.08247560486565968,9002,2020-11-26 02:22:20,gas_transport,9.12,2.3145136638593193,Grand Junction,TN,M,46,127.88519301069174,"fraud_Eichmann, Bogan and Rodriguez",Clothing/textile technologist
+1,0.9990982,12,0.08247560486565968,8065,2020-11-04 01:56:18,gas_transport,8.74,2.2762411176544437,Cazenovia,WI,M,35,109.58630078719094,fraud_Rodriguez Group,Occupational hygienist
+1,0.999092,13,0.08247560486565968,8195,2020-08-09 01:24:38,gas_transport,7.38,2.1258479144939915,Woodville,AL,M,41,79.99740952156145,fraud_Erdman-Kertzmann,"Editor, commissioning"
+1,0.9990695,14,0.21597816648058554,4832,2020-07-19 01:07:40,grocery_pos,353.79,5.871526065145326,Bridger,MT,M,42,76.09154583250488,fraud_Wolf Inc,Chartered loss adjuster
+1,0.999054,15,0.21597816648058554,4446,2020-11-27 03:24:13,grocery_pos,284.31,5.653576308428883,New Franken,WI,M,31,108.3030437908851,"fraud_Heller, Gutmann and Zieme",Art therapist
+1,0.9990471,16,0.21900430828147438,2497,2020-10-09 22:52:14,misc_net,845.7,6.741346440648232,Varnell,GA,M,76,55.65124419746208,fraud_Jaskolski-Vandervort,Pensions consultant
+1,0.9990245,17,0.21597816648058554,4987,2020-09-22 01:11:51,grocery_pos,337.39,5.824199076468011,Jackson,MS,M,48,117.24183385898672,"fraud_Moen, Reinger and Murphy","Horticulturist, commercial"
+1,0.9989988,18,0.21597816648058554,4637,2020-11-02 01:15:47,grocery_pos,342.3,5.838604700463646,Richland,NJ,M,29,120.82566617681977,fraud_Bogisich Inc,Licensed conveyancer
+1,0.9989624,19,0.21597816648058554,3684,2020-09-15 00:22:59,grocery_pos,294.39,5.688296517120754,Elizabethtown,KY,M,30,82.60609625797824,fraud_Kilback LLC,Surgeon
+1,0.9989386,20,0.21597816648058554,3395,2020-10-14 23:24:17,grocery_pos,348.09,5.855329768613345,Camden,MO,M,61,127.3302350520613,fraud_Lockman Ltd,Colour technologist
+1,0.998911,21,0.21900430828147438,2640,2020-10-18 23:49:12,misc_net,751.72,6.62369331269851,Burke,VA,M,69,59.46971778137899,"fraud_Lehner, Mosciski and King",Health visitor
+1,0.998874,22,0.21597816648058554,5048,2020-07-31 01:50:35,grocery_pos,310.79,5.7423298842684405,New Boston,IL,M,26,89.85709906153757,fraud_O'Keefe-Hudson,Manufacturing engineer
+1,0.9988716,23,0.12411660777385158,7045,2020-10-17 22:52:44,shopping_pos,726.93,6.590204889727454,Hartford,AL,M,74,29.93295179688557,fraud_Stoltenberg-Beatty,Jewellery designer
+1,0.9988438,24,0.21597816648058554,5186,2020-11-03 02:52:50,grocery_pos,284.12,5.652910144282444,Richland,NJ,M,29,79.3753049165252,"fraud_Mosciski, Gislason and Mertz",Licensed conveyancer
+1,0.99882275,25,0.08247560486565968,8121,2020-11-25 03:03:07,gas_transport,10.25,2.4203681286504293,Belmont,NH,M,65,119.50585165367752,fraud_Parisian and Sons,"Scientist, research (medical)"

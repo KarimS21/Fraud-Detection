@@ -1,0 +1,21 @@
+{
+    "timestamp_ejecucion": "2026-07-11 01:02:58",
+    "project_root": "C:\\Users\\karim\\Downloads\\UPC 2026-1\\BigData\\Fraud-Project",
+    "df_shape": "(1852394, 24)",
+    "df_model_shape": "(75000, 27)",
+    "df_model_test_shape": "(21000, 32)",
+    "candidate_pool_shape": "(21000, 37)",
+    "modelo_fuerte": "XGBoost optimizado",
+    "baseline": "Baseline historico",
+    "roc_auc_baseline": 0.725953514739229,
+    "pr_auc_baseline": 0.2076501631928543,
+    "roc_auc_modelo_fuerte": 0.9916765180146132,
+    "pr_auc_modelo_fuerte": 0.9577833515942488,
+    "recall_top5_baseline": 0.13,
+    "recall_top5_modelo_fuerte": 0.49952380952380954,
+    "n_nodos_grafo": 1616,
+    "n_aristas_grafo": 20481,
+    "componentes_debiles": 1,
+    "artefactos_ok": 21,
+    "artefactos_total": 21
+}

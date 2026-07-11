@@ -1,0 +1,2 @@
+[console_scripts]
+fraud-project = fraud_project.cli:main

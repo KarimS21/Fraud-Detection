@@ -1,0 +1,30 @@
+{
+  "generated_at_utc": "2026-07-11T06:24:51.208297+00:00",
+  "tables_copied": [
+    "tables/model_metrics.csv",
+    "tables/topk_metrics.csv",
+    "tables/cluster_validation.csv",
+    "tables/graph_metrics.csv",
+    "tables/graph_merchant_ranking.csv"
+  ],
+  "figures_copied": [
+    "figures/model_performance.png",
+    "figures/score_distribution_and_topk.png"
+  ],
+  "documents_generated": [
+    "final/technical_report.md",
+    "final/model_card.md",
+    "final/data_card.md",
+    "final/monitoring_plan.md",
+    "final/limitations_future_work.md"
+  ],
+  "metrics": {
+    "roc_auc_baseline": 0.725953514739229,
+    "pr_auc_baseline": 0.2076501631928543,
+    "roc_auc_model": 0.9916765180146132,
+    "pr_auc_model": 0.9577833515942488,
+    "recall_top5_baseline": 0.13,
+    "recall_top5_model": 0.4995238095238095
+  },
+  "graph_comparison_rows": 7
+}

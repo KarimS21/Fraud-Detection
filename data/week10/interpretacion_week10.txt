@@ -1,0 +1,26 @@
+
+Interpretacion Semana 10:
+
+1) Tipo de proyecto:
+Este proyecto se interpreta como un motor de prediccion y ranking de riesgo de fraude. No es un sistema de recomendacion tradicional, porque no recomienda productos ni contenidos a un usuario. El objetivo es asignar un score de riesgo a cada transaccion y ordenar el candidate pool para decidir que operaciones deben revisarse primero.
+
+2) Candidate pool:
+El candidate pool offline esta formado por 21000 transacciones del conjunto df_model_test. Todas las alternativas se evaluan sobre el mismo conjunto, con la misma variable real de fraude y con la misma definicion de transaccion candidata. Esto permite comparar el baseline contra el modelo fuerte sin cambiar la poblacion evaluada.
+
+3) Baseline:
+El baseline usado es historico y simple. Se calcula un score de riesgo usando la tasa historica de fraude por categoria_comercio, con respaldo de la tasa global si aparece una categoria nueva. Este baseline representa una regla sencilla de negocio: priorizar grupos que historicamente muestran mayor tasa de fraude.
+
+4) Sistema fuerte:
+El sistema fuerte es XGBoost optimizado. Este modelo usa la representacion reducida y escalada construida en las semanas anteriores para estimar la probabilidad de fraude. Luego esa probabilidad se usa como score de ranking.
+
+5) Evaluacion offline:
+El baseline obtuvo ROC-AUC=0.7260 y PR-AUC=0.2077. El sistema fuerte obtuvo ROC-AUC=0.9917 y PR-AUC=0.9578. En un problema de fraude, PR-AUC y Recall@K son especialmente importantes porque la clase positiva es minoritaria.
+
+6) Ranking:
+Al revisar el top 5% del candidate pool, el baseline captura un Recall@K=0.1300, mientras que el sistema fuerte captura un Recall@K=0.4995. Esto muestra que el modelo puede usarse como herramienta de priorizacion operativa, ya que ordena primero las transacciones con mayor riesgo esperado.
+
+7) Analisis de errores:
+Los casos fuertes son los fraudes con alto score y los no fraudes con score bajo. Los fallos principales son fraudes con score bajo, que representan riesgo no detectado, y no fraudes con score alto, que generan revision innecesaria. Estos errores son esperables porque algunas operaciones fraudulentas pueden parecer normales y algunas operaciones legitimas pueden compartir patrones con fraude.
+
+8) Segmentacion:
+La segmentacion de Semana 7 puede alimentar la interpretacion del ranking, porque permite describir grupos de comportamiento. Sin embargo, el entregable final no se presenta como un sistema hibrido completo, ya que el ranking principal se basa en el score supervisado del modelo fuerte.

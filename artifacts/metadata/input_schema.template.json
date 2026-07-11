@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "target_column": "es_fraude",
+  "raw_or_clean_columns_used_to_derive_features": [
+    "fecha_hora_transaccion",
+    "monto",
+    "poblacion_ciudad",
+    "edad_cliente",
+    "distancia_km",
+    "genero",
+    "categoria_comercio",
+    "estado",
+    "ciudad",
+    "comercio",
+    "ocupacion",
+    "codigo_postal"
+  ],
+  "model_features_after_engineering": [
+    "log_monto",
+    "poblacion_ciudad",
+    "edad_cliente",
+    "distancia_km",
+    "es_fin_de_semana",
+    "hora_sin",
+    "hora_cos",
+    "mes_sin",
+    "mes_cos",
+    "genero",
+    "categoria_comercio",
+    "dia_semana_transaccion",
+    "periodo_dia",
+    "estado",
+    "ciudad",
+    "comercio",
+    "ocupacion",
+    "codigo_postal"
+  ]
+}

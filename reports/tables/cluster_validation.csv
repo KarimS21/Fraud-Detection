@@ -1,0 +1,27 @@
+metodo,parametros,n_clusters,silhouette,inertia,calinski_harabasz,davies_bouldin,noise_ratio,interpretacion_limite,eps,min_samples
+DBSCAN,"eps=2.0, min_samples=5",159,-0.2120233919439912,,8.898680511740485,1.541858008636193,0.6784,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,2.0,5.0
+DBSCAN,"eps=1.3, min_samples=5",5,-0.21621579526138102,,4.16983274459701,1.4686350409599174,0.994,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,1.3,5.0
+DBSCAN,"eps=2.0, min_samples=10",13,-0.2589693443244323,,8.865301909343383,1.7225616556307997,0.9626,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,2.0,10.0
+DBSCAN,"eps=1.6, min_samples=5",40,-0.3130151160257302,,5.336561305445817,1.4254940663349456,0.945,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,1.6,5.0
+DBSCAN,"eps=0.5, min_samples=5",0,,,,,1.0,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,0.5,5.0
+DBSCAN,"eps=0.5, min_samples=10",0,,,,,1.0,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,0.5,10.0
+DBSCAN,"eps=0.5, min_samples=20",0,,,,,1.0,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,0.5,20.0
+DBSCAN,"eps=0.8, min_samples=5",0,,,,,1.0,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,0.8,5.0
+DBSCAN,"eps=0.8, min_samples=10",0,,,,,1.0,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,0.8,10.0
+DBSCAN,"eps=0.8, min_samples=20",0,,,,,1.0,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,0.8,20.0
+DBSCAN,"eps=1.0, min_samples=5",0,,,,,1.0,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,1.0,5.0
+DBSCAN,"eps=1.0, min_samples=10",0,,,,,1.0,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,1.0,10.0
+DBSCAN,"eps=1.0, min_samples=20",0,,,,,1.0,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,1.0,20.0
+DBSCAN,"eps=1.3, min_samples=10",0,,,,,1.0,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,1.3,10.0
+DBSCAN,"eps=1.3, min_samples=20",0,,,,,1.0,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,1.3,20.0
+DBSCAN,"eps=1.6, min_samples=10",0,,,,,1.0,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,1.6,10.0
+DBSCAN,"eps=1.6, min_samples=20",0,,,,,1.0,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,1.6,20.0
+DBSCAN,"eps=2.0, min_samples=20",0,,,,,1.0,DBSCAN puede marcar muchos puntos como ruido si la densidad no es adecuada.,2.0,20.0
+K-means,k=10,10,0.15556395658325478,1137328.309877537,4305.3629046976985,2.0145198149316896,0.0,K-means fuerza a todos los puntos a pertenecer a un cluster.,,
+K-means,k=6,6,0.12906663202127042,1346281.9856022513,4219.26150323395,2.6047951728952676,0.0,K-means fuerza a todos los puntos a pertenecer a un cluster.,,
+K-means,k=20,20,0.11337009834862717,976337.1800056461,3026.0659711837047,2.229262387465127,0.0,K-means fuerza a todos los puntos a pertenecer a un cluster.,,
+K-means,k=5,5,0.1056332240530079,1421280.3542060277,4006.5027932231833,2.9177112394455866,0.0,K-means fuerza a todos los puntos a pertenecer a un cluster.,,
+K-means,k=15,15,0.09675577236670538,1027950.2980312366,3631.9343898598186,1.8925691270415888,0.0,K-means fuerza a todos los puntos a pertenecer a un cluster.,,
+K-means,k=2,2,0.07911287766066853,1647177.7551869713,3543.3533381865955,3.526922452511527,0.0,K-means fuerza a todos los puntos a pertenecer a un cluster.,,
+K-means,k=4,4,0.06455020181904292,1495852.342286377,3829.513274256438,2.743005591813666,0.0,K-means fuerza a todos los puntos a pertenecer a un cluster.,,
+K-means,k=3,3,0.04844836547697083,1574833.5495596349,3575.6817059578752,3.6497689019528976,0.0,K-means fuerza a todos los puntos a pertenecer a un cluster.,,

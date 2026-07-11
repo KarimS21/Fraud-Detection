@@ -1,0 +1,9 @@
+entregable,archivo_esperado,existe,estado,criterio_defensa
+Final technical report,delivery\week14_final_integrated_delivery\docs\final_technical_report_week14.md,True,OK,"Explica problema, pipeline, resultados, coherencia técnica y conclusión final."
+Reproducible repository,delivery\week14_final_integrated_delivery\repository_evidence\README_reproducible_repository_week14.md,True,OK,"Permite mostrar estructura, dependencias, pasos y artefactos generados."
+Runbook,delivery\week14_final_integrated_delivery\docs\runbook_week14.md,True,OK,"Documenta cómo instalar, ejecutar, validar y corregir problemas básicos."
+Final presentation,delivery\week14_final_integrated_delivery\docs\final_presentation_outline_week14.md,True,OK,Resume la historia técnica de la solución para exposición final.
+Final demo artifact,delivery\week14_final_integrated_delivery\demo\final_demo_top25_risk_transactions_week14.csv,True,OK,"Muestra salidas reales del sistema, no solo explicación conceptual."
+Monitoring or operationalization plan,delivery\week14_final_integrated_delivery\docs\monitoring_operationalization_plan_week14.md,True,OK,Indica cómo se controlaría el sistema si se usa de forma recurrente.
+Limitations and future work,delivery\week14_final_integrated_delivery\docs\limitations_future_work_week14.md,True,OK,Reconoce restricciones actuales y mejoras futuras.
+Processed artifacts and outputs,delivery\week14_final_integrated_delivery\processed_artifacts\final_processed_artifacts_inventory_week14.csv,True,OK,Lista los archivos procesados generados por el notebook.

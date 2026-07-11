@@ -1,15 +1,38 @@
 [project]
 name = "fraud-detection"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.3.0"
+description = "Pipeline reproducible y demo visual para detección, ranking y análisis de fraude transaccional."
 readme = "README.md"
-requires-python = ">=3.12.4"
+requires-python = ">=3.12.4,<3.13"
 dependencies = [
+    "category-encoders==2.7.0",
     "ipykernel>=7.2.0",
-    "matplotlib>=3.10.9",
-    "numpy>=2.4.4",
-    "pandas>=3.0.2",
-    "scikit-learn>=1.8.0",
+    "joblib>=1.5.2",
+    "jupyterlab>=4.4.0",
+    "matplotlib>=3.10.0",
+    "nbconvert>=7.16.6",
+    "networkx>=3.5",
+    "numpy>=2.0.0",
+    "pandas>=2.2.0",
+    "scikit-learn==1.5.2",
+    "scipy>=1.13.0",
+    "seaborn>=0.13.2",
+    "streamlit>=1.45,<2.0",
     "sweetviz>=2.3.3",
-    "tqdm>=4.67.3",
+    "tqdm>=4.67.0",
+    "xgboost>=2.1.0",
 ]
+
+[project.scripts]
+fraud-project = "fraud_project.cli:main"
+
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["fraud_project*"]
